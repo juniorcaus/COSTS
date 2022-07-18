@@ -1,9 +1,35 @@
+import { BrowserRouter as Router, Routes, Route, Link  } from 'react-router-dom';
+
+import Container from './components/layout/Container';
+
+import Company from './components/pages/Company';
+import Contact from './components/pages/Contact';
+import Home from './components/pages/Home';
+import NewProject from './components/pages/NewProject';
 
 function App() {
   return (
-    <div className="App">
-      <p>PROJETO COSTS</p>
-    </div>
+    <Router>
+      <div>
+        <Link to="/">Home</Link>
+        <Link to="/Company">Company</Link>
+        <Link to="/Contact">Contact</Link>
+        <Link to="/NewProject">NewProject</Link>
+      </div>
+
+      <Container customClass="min-height">
+        <Routes>
+          <Route exact path="/" element={<Home/>} />
+          <Route exact path="/Company" element={<Company/>} />
+          <Route exact path="/Contact" element={<Contact/>} />
+          <Route exact path="/NewProject" element={<NewProject/>} />
+        </Routes>  
+      </Container>
+
+      <p>Footer</p>
+
+    
+    </Router>
   );
 }
 
