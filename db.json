@@ -31,8 +31,26 @@
         "id": "2",
         "name": "desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 1800,
+      "services": [
+        {
+          "name": "Contratar dev",
+          "cost": "500",
+          "description": "dev react",
+          "id": "656a7fd6-d401-47f7-8467-9b2fc06903b5"
+        },
+        {
+          "name": "backend",
+          "cost": "850",
+          "id": "6e282c5a-0da2-40a5-aa72-6c659702c661"
+        },
+        {
+          "name": "ux",
+          "cost": "450",
+          "description": "ux design",
+          "id": "b027b601-ec99-4aa8-bda2-f80f12a83c4e"
+        }
+      ],
       "id": 7
     },
     {
