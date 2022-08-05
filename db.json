@@ -7,8 +7,21 @@
         "id": "1",
         "name": "infra"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 2000,
+      "services": [
+        {
+          "name": "Nova funcionalidade 2.0",
+          "cost": "1000",
+          "description": "Funcionalidade 2.0",
+          "id": "303c2757-959d-4681-9fa5-57fb1ef6b725"
+        },
+        {
+          "name": "Nova funcionalidade 2.0",
+          "cost": "1000",
+          "description": "Funcionalidade 2.0",
+          "id": "303c2757-959d-4681-9fa5-57fb1ef6b725"
+        }
+      ],
       "id": 6
     },
     {
