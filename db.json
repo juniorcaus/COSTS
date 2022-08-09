@@ -1,50 +1,15 @@
 {
   "projects": [
     {
-      "name": "teste123",
-      "budget": "30000",
-      "category": {
-        "id": "1",
-        "name": "infra"
-      },
-      "cost": 2000,
-      "services": [
-        {
-          "name": "Nova funcionalidade 2.0",
-          "cost": "1000",
-          "description": "Funcionalidade 2.0",
-          "id": "303c2757-959d-4681-9fa5-57fb1ef6b725"
-        },
-        {
-          "name": "Nova funcionalidade 2.0",
-          "cost": "1000",
-          "description": "Funcionalidade 2.0",
-          "id": "303c2757-959d-4681-9fa5-57fb1ef6b725"
-        }
-      ],
-      "id": 6
-    },
-    {
-      "name": "teste 2",
-      "budget": "5000",
+      "name": "Projeto front-end",
+      "budget": "1500",
       "category": {
         "id": "2",
         "name": "desenvolvimento"
       },
       "cost": 0,
       "services": [],
-      "id": 7
-    },
-    {
-      "category": {
-        "id": "3",
-        "name": "design"
-      },
-      "name": "NOVO PROJETO 1.0",
-      "budget": "3500",
-      "cost": 0,
-      "services": [],
-      "id": 8
+      "id": 9
     }
   ],
   "categories": [
