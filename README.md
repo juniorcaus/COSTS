@@ -19,7 +19,7 @@
 
 
 # Features 
-- [x] Criando um CRUD para projetos de custos
+- [x] Criando um CRUD para projetos de custos,
 - [x] Tem a opção de criar projeto, assim como a opção de adicionar, remover, editar e apagar.
 
 <br>
